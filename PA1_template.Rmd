@@ -2,8 +2,10 @@
 title: "Reproducible Research: Peer Assessment 1"
 output: 
   html_document:
-    keep_md: true
+    keep_md: yes
 ---
+
+
 1. Code for reading in the dataset and processing the data.
 
 ```{r inputs,echo=TRUE}
@@ -125,3 +127,11 @@ EXTRA: Panel plot comapring the histogram with raw data vs the one with imputed 
     with(intervalWE,plot(interval,x,type="l",main="Avg steps/interval - Weekends",xlab="Interval",ylab="Steps",ylim=c(0,250)))
 
 ```
+
+
+
+
+
+
+
+
